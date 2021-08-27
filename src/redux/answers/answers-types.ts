@@ -1,0 +1,5 @@
+export enum AnswersType {
+  SET_ANSWERS = 'SET_ANSWERS',
+  GET_SCORE = 'GET_SCORE',
+  CLEAN_ANSWERS = 'CLEAN_ANSWERS'
+}
