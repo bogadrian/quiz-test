@@ -21,3 +21,4 @@ I wouldn't do that at job, at least if not neccesar for the code logic.
 The UI can be much better for sure; I did it like this but I could do it better if required.
 
 ## Note: Add an .env file in the app root with the URL base.
+REACT_APP_URL_ENDPOINT=URL
