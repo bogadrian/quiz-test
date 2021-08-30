@@ -101,10 +101,12 @@ export const QuestionCard: React.FC<Props> = memo(
       const arr: string[] = [];
       const random: string[] = [];
 
-      const rand = Math.floor(Math.random() * 4);
+      
 
       question.incorrect_answers.forEach(q => arr.push(q));
-
+      
+      const rand = Math.floor(Math.random() * arr.length);
+      
       arr.splice(rand, 0, question.correct_answer);
 
       arr.forEach(el => {
